@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Alert at X%</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>keyboard</key>
+				<string>phone</string>
+				<key>placeholder</key>
+				<string>10</string>
+				<key>key</key>
+				<string>kThirdBanner</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Banner Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kThirdBannerTitle</string>
+				<key>placeholder</key>
+				<string>Banner Title</string>
+				<key>autoCaps</key>
+				<string>sentences</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kThirdBannerMessage</string>
+				<key>placeholder</key>
+				<string>Banner Message</string>
+				<key>autoCaps</key>
+				<string>sentences</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Save</string>
+				<key>action</key>
+				<string>save</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>label</key>
+				<string>Vibration</string>
+				<key>key</key>
+				<string>kThirdBannerVibration</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Test Banner</string>
+				<key>action</key>
+				<string>testThirdBanner</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Third Banner</string>
+	</dict>
+</plist>

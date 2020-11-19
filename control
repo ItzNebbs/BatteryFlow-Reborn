@@ -1,0 +1,9 @@
+Package: xyz.itznebbs.batteryflow-reborn
+Name: BatteryFlow Reborn
+Depends: mobilesubstrate, preferenceloader, firmware (>=13.0), com.cokepokes.libnotifications, ws.hbang.common (>=1.16), xyz.itznebbs.libnebbs
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Customize your 'Low Power' alerts!
+Maintainer: ItzNebbs
+Author: ItzNebbs
+Section: Tweaks

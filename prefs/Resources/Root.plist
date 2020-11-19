@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>General</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kEnabledBFR</string>
+				<key>label</key>
+				<string>Enabled</string>
+				<key>nestedEntryCount</key>
+				<integer>12</integer>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Type of Alert</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSegmentCell</string>
+				<key>default</key>
+				<integer>2</integer>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kAlertType</string>
+				<key>validValues</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+				<key>validTitles</key>
+				<array>
+					<string>None</string>
+					<string>Banner</string>
+					<string>Popup</string>
+				</array>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Banner Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRFirstBanner</string>
+				<key>label</key>
+				<string>First Banner</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRSecondBanner</string>
+				<key>label</key>
+				<string>Second Banner</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRThirdBanner</string>
+				<key>label</key>
+				<string>Third Banner</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRFourthBanner</string>
+				<key>label</key>
+				<string>Fourth Banner</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Popup Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRFirstPopup</string>
+				<key>label</key>
+				<string>First Popup</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRSecondPopup</string>
+				<key>label</key>
+				<string>Second Popup</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRThirdPopup</string>
+				<key>label</key>
+				<string>Third Popup</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>detail</key>
+				<string>BFRFourthPopup</string>
+				<key>label</key>
+				<string>Fourth Popup</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>NEBLinkCell</string>
+				<key>icon</key>
+				<string>nebbs.png</string>
+				<key>label</key>
+				<string>Nebbs</string>
+				<key>subtitle</key>
+    			<string>Follow me on Twitter!</string>
+				<key>type</key>
+				<string>twitter</string>
+				<key>link</key>
+				<string>ItzNebbs</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>NEBLinkCell</string>
+				<key>icon</key>
+				<string>paypal.png</string>
+				<key>label</key>
+				<string>Donate</string>
+				<key>subtitle</key>
+    			<string>Buy me a coffee!</string>
+				<key>type</key>
+				<string>other</string>
+				<key>link</key>
+				<string>https://paypal.me/TylerD3V2</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>NEBLinkCell</string>
+				<key>icon</key>
+				<string>github.png</string>
+				<key>label</key>
+				<string>Source Code</string>
+				<key>subtitle</key>
+    			<string>Available on GitHub!</string>
+				<key>type</key>
+				<string>other</string>
+				<key>link</key>
+				<string>https://github.com/TylerD3V/BatteryFlow-Reborn</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>BatteryFlow Reborn</string>
+	</dict>
+</plist>

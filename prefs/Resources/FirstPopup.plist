@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Alert at X%</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>keyboard</key>
+				<string>phone</string>
+				<key>placeholder</key>
+				<string>10</string>
+				<key>key</key>
+				<string>kFirstPopup</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Popup Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kFirstPopupTitle</string>
+				<key>placeholder</key>
+				<string>Popup Title</string>
+				<key>autoCaps</key>
+				<string>sentences</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kFirstPopupMessage</string>
+				<key>placeholder</key>
+				<string>Popup Message</string>
+				<key>autoCaps</key>
+				<string>sentences</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+				<key>key</key>
+				<string>kFirstPopupOK</string>
+				<key>placeholder</key>
+				<string>Popup Button</string>
+				<key>autoCaps</key>
+				<string>sentences</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Save</string>
+				<key>action</key>
+				<string>save</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Other Options</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>label</key>
+				<string>Vibration</string>
+				<key>key</key>
+				<string>kFirstPopupVibration</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>xyz.itznebbs.batteryflow-reborn</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSButtonCell</string>
+				<key>label</key>
+				<string>Test Popup</string>
+				<key>action</key>
+				<string>testFirstPopup</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>First Popup</string>
+	</dict>
+</plist>
